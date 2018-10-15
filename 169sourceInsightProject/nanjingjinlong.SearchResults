@@ -1,0 +1,44 @@
+---- do Matches (43 in 9 files) ----
+Datapage.c (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources):#else /* we do not know which page, decide it at runtime */
+Datapage.c (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources):  and occasions. As HC12's or HCS12's do not have the G-Load and G-Store instructions,
+Datapage.c (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources):    For logical addresses, the lower 16 bits of the address do determine in which area the address is,
+Datapage.c (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources):      - Inside of the paged area, the highest pages are allocated first. So all HCS12X's do have the FF pages
+Datapage.c (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources):        ERROR   !!!!              ;/* this mapping is not possible! What should we do? */
+Datapage.c (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources):#if _REUSE_CONV_GLOBAL_TO_LOGICAL  /* do we want an optimized version? */
+Datapage.c (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources):        ERROR !!!!                ;/* this mapping is not possible! What should we do? */
+Fault_page.c (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources):	do{\
+Gui.c (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources\gui):	do
+Gui.c (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources\gui):	do
+Gui.c (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources\gui):	do
+Gui.c (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources\gui):	do
+Gui.c (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources\gui):	do
+Gui.c (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources\gui):	do
+Gui.c (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources\gui):	do
+Gui.c (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources\gui):			do
+Main.c (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources):#define SetTaskMode(mod)	do{Task = mod;}while(0)
+Main.c (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources):				do{
+Main.h (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources):#define POW_EN				 do{PORTAB_PB1 = 1;}while(0)
+Main.h (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources):#define POW_DIS				 do{PORTAB_PB1 = 0;}while(0)
+Main.h (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources):#define AlarmSong(on,off,C)			do{if(C<beep_info.temp){break;}beep_info.time_on = on;beep_info.time_off = off;beep_info.cont = C;}while(0)
+Panel.h (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources):#define Set_Warning_LED(LED,V)		do{(LED) = (V)?1:0;}while(0)
+Show.h (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources\gui):#define ShowFlot_sign(data,idx,precision,sign)			do{\
+Show.h (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources\gui):#define ShowDigit_sign(data,idx,sign)			       do{\
+Show.h (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources\gui):#define ShowDigit(data,idx)			                    do{\
+Show.h (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources\gui):#define ShowSelectStrin(idx,arr)						do{\
+Show.h (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources\gui):#define ShowHexLong(pdata)							    do{\
+Show.h (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources\gui):#define ShowNull()								        do{\
+Start12.c (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources):#define __NO_FLAGS_OFFSET       /* we do not need the flags field in the startup data descriptor */
+Start12.c (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources):#define __NO_MAIN_OFFSET        /* we do not need the main field in the startup data descriptor */
+Start12.c (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources):#define __NO_STACKOFFSET_OFFSET /* we do not need the stackOffset field in the startup data descriptor */
+Start12.c (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources):/* #define _DO_FEED_COP_  : do feed the COP                                */
+Start12.c (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources):/* #define _DO_ENABLE_COP_: do enable the COP                              */
+Start12.c (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources):                                  /* calling convention, do not use it in c code! */
+Start12.c (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources):#define __FEED_COP_IN_HLI() /* do nothing */
+Start12.c (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources):             BEQ   LoopClrW1                ; do we copy more than 1 byte?
+Start12.c (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources):             BEQ   LoopClrW1                ; do we copy more than 1 byte?
+Start12.c (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources):             BEQ    Copy1                   ; do we copy more than 1 byte?
+Start12.c (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources):             BEQ   Copy1                    ; do we copy more than 1 byte?
+Stepper.h (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources):#define R_DIAL_PLATE_CLOCKWISE		do{CWB = 1;}while(0)
+Stepper.h (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources):#define R_DIAL_PLATE_ANTICLOCKWISE  do{CWB = 0;}while(0)
+Stepper.h (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources):#define L_DIAL_PLATE_CLOCKWISE		do{CWA = 1;}while(0)
+Stepper.h (c:\users\pnc\desktop\南京金龙\南京金龙\169_instrument\sources):#define L_DIAL_PLATE_ANTICLOCKWISE  do{CWA = 0;}while(0)
